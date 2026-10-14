@@ -1,22 +1,22 @@
 # 📋 Plano do projeto: Assistente-Juridico-programa-14-10 (1)
 
-_Gerado em 14/10/2026, 10:33:24 — sem IA, lendo os arquivos._
+_Gerado em 14/10/2026, 10:40:42 — sem IA, lendo os arquivos._
 
 ## 📊 Visão geral
 | Item | Valor |
 |---|---|
-| Arquivos | 167 |
-| Linhas | 35.847 |
-| Telas/páginas | 38 |
+| Arquivos | 122 |
+| Linhas | 34.492 |
+| Telas/páginas | 37 |
 | Rotas do backend | 101 |
 | Chamadas do app | 92 |
 | Tabelas do banco | 16 |
 | Variáveis de ambiente | 22 |
 
-**Linguagens:** TypeScript (React) (71), Imagem (33), TypeScript (17), JSON (10), JavaScript (8), HTML (6), Outros (4), YAML (4), Imagem SVG (4), Markdown (3), Ícone (2), Batch (Windows) (2), CSS (1), Shell (1), SQL (1)
+**Linguagens:** TypeScript (React) (71), TypeScript (17), JSON (7), JavaScript (6), Outros (4), HTML (4), YAML (3), Imagem (3), Batch (Windows) (2), Markdown (2), CSS (1), Shell (1), SQL (1)
 
 ## 💡 O que fazer (em ordem)
-1. 🧹 Tirar a Replit de 6 arquivo(s) (🏗️ Preparar → Fazer tudo)
+1. 🧹 Tirar a Replit de 4 arquivo(s) (🏗️ Preparar → Fazer tudo)
 2. 🖥️ O projeto tem backend próprio: para funcionar fora da Replit ele precisa ficar ligado num servidor (Render, Railway, Vercel) ou virar funções
 3. 🔐 Criar um .env.example com: AI_INTEGRATIONS_GEMINI_API_KEY, AI_INTEGRATIONS_GEMINI_BASE_URL, AI_INTEGRATIONS_OPENAI_API_KEY, AI_INTEGRATIONS_OPENAI_BASE_URL, APP_PASSWORD, BASE_URL, DATAJUD_API_KEY, DATA_DIR, HOST, NODE_ENV, NO_BROWSER, PDPJ_PEM_PRIVATE_KEY… (os valores você coloca no servidor, nunca no código)
 4. 🗄️ Precisa de banco de dados (16 tabela(s)) — Neon ou Supabase servem, grátis
@@ -26,7 +26,6 @@ _Gerado em 14/10/2026, 10:33:24 — sem IA, lendo os arquivos._
 - `client/index.html`
 - `client/src/App.tsx`
 - `client/src/main.tsx`
-- `index.html`
 - `server/index.ts`
 
 ## ⌨️ Comandos (package.json)
@@ -81,7 +80,6 @@ _Gerado em 14/10/2026, 10:33:24 — sem IA, lendo os arquivos._
 | `/robo-djen` | client/src/pages/robo-djen.tsx |
 | `/token-generator` | client/src/pages/token-generator.tsx |
 | `/tramitacao` | client/src/pages/tramitacao.tsx |
-| `index.html` | index.html |
 | `public/auditoria.html` | public/auditoria.html |
 
 ## 🖥️ Rotas do backend
@@ -395,12 +393,10 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 `@capacitor/android` · `@capacitor/core` · `@electric-sql/pglite` · `@google/genai` · `@hookform/resolvers` · `@jridgewell/trace-mapping` · `@radix-ui/react-accordion` · `@radix-ui/react-alert-dialog` · `@radix-ui/react-aspect-ratio` · `@radix-ui/react-avatar` · `@radix-ui/react-checkbox` · `@radix-ui/react-collapsible` · `@radix-ui/react-context-menu` · `@radix-ui/react-dialog` · `@radix-ui/react-dropdown-menu` · `@radix-ui/react-hover-card` · `@radix-ui/react-label` · `@radix-ui/react-menubar` · `@radix-ui/react-navigation-menu` · `@radix-ui/react-popover` · `@radix-ui/react-progress` · `@radix-ui/react-radio-group` · `@radix-ui/react-scroll-area` · `@radix-ui/react-select` · `@radix-ui/react-separator` · `@radix-ui/react-slider` · `@radix-ui/react-slot` · `@radix-ui/react-switch` · `@radix-ui/react-tabs` · `@radix-ui/react-toast` · `@radix-ui/react-toggle` · `@radix-ui/react-toggle-group` · `@radix-ui/react-tooltip` · `@tanstack/react-query` · `@tiptap/core` · `@tiptap/extension-color` · `@tiptap/extension-font-family` · `@tiptap/extension-highlight` · `@tiptap/extension-link` · `@tiptap/extension-table` · `@tiptap/extension-table-cell` · `@tiptap/extension-table-header` · `@tiptap/extension-table-row` · `@tiptap/extension-text-align` · `@tiptap/extension-text-style` · `@tiptap/extension-underline` · `@tiptap/pm` · `@tiptap/react` · `@tiptap/starter-kit` · `@types/jsonwebtoken` · `@types/multer` · `adm-zip` · `class-variance-authority` · `clsx` · `cmdk` · `date-fns` · `docx` · `drizzle-orm` · `drizzle-zod` · `embla-carousel-react` · `express` · `express-session` · `framer-motion` · `html-entities` · `input-otp` · `jsonwebtoken` · `lucide-react` · `mammoth` · `memorystore` · `msedge-tts` · `multer` · `next-themes` · `openai` · `p-limit` · `p-retry` · `passport` · `passport-local` · `pdf-parse` · `pdfjs-dist` · `postcss-selector-parser` · `react` · `react-day-picker` · `react-dom` · `react-hook-form` · `react-icons` · `react-resizable-panels` · `recharts` · `tailwind-merge` · `tailwindcss-animate` · `tsx` · `tw-animate-css` · `vaul` · `wouter` · `ws` · `zod` · `zod-validation-error`
 
 ## 🧹 Arquivos com coisa da Replit
-- client/service-worker.js
 - client/src/pages/code-assistant.tsx
 - client/src/pages/legal-assistant.tsx
 - server/localdb.ts
 - server/routes.ts
-- service-worker.js
 
 ## 🔁 Roteiro para recriar fora da Replit
 1. Importar o projeto no Mini SK e tocar em 🏗️ Preparar → ✅ Fazer tudo (tira a Replit, cria os arquivos que faltam).
@@ -415,28 +411,9 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 ├─ 📁 .github/
 │  └─ 📁 workflows/
 │     ├─ apk-capacitor.yml
-│     ├─ apk.yml
 │     ├─ desktop-exe.yml
 │     └─ programa-exe.yml
 ├─ 📁 client/
-│  ├─ 📁 icons/
-│  │  ├─ apple-touch-icon.png
-│  │  ├─ icon-128.png
-│  │  ├─ icon-144.png
-│  │  ├─ icon-152.png
-│  │  ├─ icon-16.png
-│  │  ├─ icon-180.png
-│  │  ├─ icon-192.png
-│  │  ├─ icon-32.png
-│  │  ├─ icon-384.png
-│  │  ├─ icon-48.png
-│  │  ├─ icon-512.png
-│  │  ├─ icon-72.png
-│  │  ├─ icon-96.png
-│  │  ├─ icon.svg
-│  │  ├─ maskable-192.png
-│  │  ├─ maskable-512.png
-│  │  └─ maskable.svg
 │  ├─ 📁 public/
 │  │  ├─ auditoria.html
 │  │  ├─ codigo-formatacao.txt
@@ -527,32 +504,10 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 │  │  ├─ App.tsx
 │  │  ├─ index.css
 │  │  └─ main.tsx
-│  ├─ 404.html
-│  ├─ favicon.ico
-│  ├─ index.html
-│  ├─ manifest.json
-│  └─ service-worker.js
+│  └─ index.html
 ├─ 📁 electron/
 │  ├─ main.cjs
 │  └─ preload.cjs
-├─ 📁 icons/
-│  ├─ apple-touch-icon.png
-│  ├─ icon-128.png
-│  ├─ icon-144.png
-│  ├─ icon-152.png
-│  ├─ icon-16.png
-│  ├─ icon-180.png
-│  ├─ icon-192.png
-│  ├─ icon-32.png
-│  ├─ icon-384.png
-│  ├─ icon-48.png
-│  ├─ icon-512.png
-│  ├─ icon-72.png
-│  ├─ icon-96.png
-│  ├─ icon.svg
-│  ├─ maskable-192.png
-│  ├─ maskable-512.png
-│  └─ maskable.svg
 ├─ 📁 migrations/
 │  ├─ 📁 meta/
 │  │  ├─ _journal.json
@@ -583,20 +538,14 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 ├─ .env.exemplo
 ├─ .gitignore
 ├─ .npmrc
-├─ apk.config.json
 ├─ capacitor.config.json
 ├─ components.json
-├─ favicon.ico
-├─ index.html
 ├─ iniciar.bat
 ├─ iniciar.sh
 ├─ LEIA-ME-PROGRAMA.md
 ├─ LEIA-ME.md
-├─ manifest.json
 ├─ package.json
-├─ PLANO.md
 ├─ postcss.config.js
-├─ service-worker.js
 ├─ tailwind.config.ts
 ├─ tsconfig.json
 └─ vite.config.ts
