@@ -6,3 +6,4 @@ dados/
 .vercel/
 release/
 dist-server/
+dist-electron/
